@@ -1,6 +1,7 @@
 # This is  a car price prediction app which is served with fastapi and deployed in heroku
 The directory structure of this project is 
 
+![image](https://user-images.githubusercontent.com/46038886/171564114-e29a43f0-f147-48da-b9a4-2b925fb37749.png)
 
  
  
