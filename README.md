@@ -1,21 +1,7 @@
 # This is  a car price prediction app which is served with fastapi and deployed in heroku
 The directory structure of this project is 
-├── car_data1.csv
-├── CarPricePrediction.ipynb
-├── main.py
-├── models
-│   ├── random_forest_regressor_model.pkl
-│   └── xgboost_regressor_model.pkl
-├── Procfile
-├── __pycache__
-│   ├── app.cpython-38.pyc
-│   └── main.cpython-38.pyc
-├── requirements.txt
-├── static
-│   └── styles.css
-└── templates
-    ├── base.html
-    └── index.html
+
+
  
  
 The libraries we have used in this project are 
