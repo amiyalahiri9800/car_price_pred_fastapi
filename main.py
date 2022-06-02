@@ -42,12 +42,12 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory='templates/')
 
-model = pickle.load(open('/home/amiya/project/Car-Price-Prediction/models/random_forest_regressor_model.pkl', 'rb'))
+model = pickle.load(open('models/random_forest_regressor_model.pkl', 'rb'))
 
 
 @app.get("/")
 def read_item(request: Request, response_class = HTMLResponse):
-    return templates.TemplateResponse('index.html', {"request":request, 'prediction_text': '30'})
+    return templates.TemplateResponse('index.html', {"request":request, 'prediction_text': 'prediction result'})
 
 
 @app.post("/predict", response_class=HTMLResponse)
